@@ -1,0 +1,112 @@
+body {
+  background-color: #e5e5e5;
+}
+
+li {
+  list-style: none;
+}
+
+.cardGood {
+  box-sizing: border-box;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+
+  width: 352px;
+  height: 256px;
+  background: #ffffff;
+  border-radius: 24px;
+}
+
+.cardGood__category {
+  margin-top: 0;
+  margin-bottom: 8px;
+
+  text-align: left;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.cardGood__name {
+  margin-top: 0px;
+  margin-bottom: 40px;
+  text-align: left;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.cardGood__price {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: left;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.cardGood__price::before {
+  content: "$";
+
+  vertical-align: top;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardGood_button {
+  width: 64px;
+  height: 56px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 16px;
+  background-color: #ffffff;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #4bcfa0;
+}
+
+.cardGood_button:hover {
+  background-color: #4bcfa0;
+  color: #ffffff;
+}
