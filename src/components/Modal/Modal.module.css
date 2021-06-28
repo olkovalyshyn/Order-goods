@@ -24,6 +24,8 @@
 }
 
 .cardGood {
+  /* position: relative; */
+
   box-sizing: border-box;
   padding-top: 54px;
   /* padding-bottom: 66px; */
@@ -137,6 +139,20 @@
   margin-bottom: 32px;
 }
 
+.cardGood_inputError {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+
+  width: 288px;
+  height: 56px;
+  border-radius: 16px;
+  box-sizing: border-box;
+
+  /* border: 1px solid rgba(228, 63, 63, 1); */
+  border: 1px solid red;
+}
+
 .cardGood_BtnSubmit {
   width: 288px;
   height: 56px;
@@ -153,4 +169,21 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: #ffffff;
+}
+
+.cardGood_errorNameField,
+.cardGood_errorNumberField {
+  /* position: absolute; */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  color: #e43f3f;
+}
+
+.cardGood_errorNumberField {
+  margin-bottom: 17px;
 }
